@@ -1,0 +1,1236 @@
+*{padding: opx;
+  margin: opx;}
+
+.mainlinks{padding: -0px;
+           margin: 0px;
+           width: 1366px;
+           display: flex;
+           justify-content: space-between;
+           word-spacing: 1px;
+           justify-content: end;
+           background-color: black;
+           position: relative;
+           top: -8px;
+           left: -8px;}
+
+.mainlinks li{list-style: none;
+                   display: flex;
+                    display: inline-block;
+                    margin-right: 20px;
+                    transition: -0.1s ease-in-out ;}
+
+.mainlinks  li  :hover{transition:  -0.1s ease-in-out;
+                      color: grey;
+                      height: 15px;}                  
+
+
+.mainlinks ul li a{position: relative;
+                    display: flex;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 14px;
+                   left: -7px;}
+           
+
+.logoimage{position: absolute;
+           left: 40px;
+           top: 50px;}
+
+
+.contantlinks{padding: 0px;
+              margin: 0px;
+              display: flex;
+              justify-content: center;
+              position: relative;
+              top: 75px;
+              left: -7px;
+              word-spacing: 20px;
+              background-color:black;
+              height: 64px;
+              width: 1364px;
+              transition:  o.5s ease-in-out;}
+
+.contantlinks :hover{transition:  0.5s ease-in-out;
+                      background-color: black;
+                      color: white;}
+
+
+.contantlinks select{padding: 0px;
+                      position: relative;
+                     margin: 0px;
+                     font-size: 16px;
+                     border: 1px solid grey;
+                     margin: 10px;
+                    border-radius: 5px;
+                    background-color:white;
+                    height: 30px;
+                    top: 10px;
+                    transition:  1s ease-in-out;}
+
+.contantlinks  option {background-color: black;
+                       color: white;}
+                 
+
+.searchbar{padding: 0px;
+           display: flex;
+           width: 90px;
+           position: relative;
+          left: 10px;
+          }
+          
+.srch{ position: relative;
+     padding: 0px;
+      width: 270px;
+      display: flex;
+      position: relative;
+      left: 1043px;
+      top: -45px;
+      height: 35px;
+      border-radius: 10px;
+      border: solid 0.1px grey;
+      background-color: rgb(240, 235, 235);
+      justify-content: center;}
+
+.searchbar ::placeholder{color: rgb(185, 185, 185);
+                         position: relative;
+                         left: 39px;
+                        font-size: 15px;
+                        border: none;}
+
+.searchsign{display: flex;
+            justify-content: center;
+            position: relative;
+            margin-top: -39px;
+            margin-left: 880px;}
+
+.heartlogo{display: flex;
+           justify-content: center;
+           position: relative;
+           margin-top: -47px;
+           margin-left: 171px;}
+
+.basketimagesrch{display: flex;
+                 justify-content: center;
+                 position: relative;
+                 margin-top: -40px;
+                 margin-left: 20px;}
+
+.show{
+      position: relative;
+      width: 700px;
+      margin-top: -90px;
+      margin-left: -1466px;}
+
+.show svg{width: 400px;
+          margin-top: -20px;}
+
+
+.membership{
+     display: flex;
+     justify-content: center;
+     margin: 40px;
+     background-color: rgb(245, 242, 242);
+     position: relative;
+     width: 1364px;
+     left: -46px;
+     height: 67px;
+     font-size: 18px;}
+
+.para{display: flex;
+     justify-content: center;
+     position: relative;
+     top: -77px;
+     font-size: 13px;}
+
+.saveup50{display: flex;
+     justify-content: center;
+     background-color: rgba(128, 0, 0, 0.829);
+     position: relative;
+     height: 300px;
+     width: 1230px;
+     left: 60px;
+     top: -80px;
+     color: white;}
+
+.saveup50 p{font-size: 17px;
+             display: flex;
+             justify-content: center;
+             position: relative;
+             font-weight: 0px;
+             font-family: Arial, Helvetica, sans-serif;
+             top: 35px;
+             left: 490px;
+             letter-spacing: 0px;
+             word-spacing: -1px;}
+
+
+
+.saveup50 h1{display: flex;
+           justify-content: center;
+           position: relative;
+           font-size: 65px;
+           font-weight: 700;
+           top: 30px;
+           left: 189px;
+           font-family: Arial, Helvetica, sans-serif;
+           word-spacing: -2px;
+           letter-spacing: -3.5px;}
+
+.saveup50 h6{display: flex;
+     justify-content: center;
+     position: relative;
+     top: 120px;
+     left: -268px;
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     word-spacing: -1px;}
+
+.saveup50 button{padding: 0px;
+                 margin: 0px;
+                 height: 40px;
+                 width: 90px;
+                 position: relative;
+                 top: 205px;
+                 left: -520px;
+                 border-radius: 18px;
+                 border: solid 1px grey;
+                 font-size: 17px;
+                 transition:  0.2s ease-in-out;}
+
+.saveup50 button:hover{transition: 0.2s ease-in-out;
+                       background-color: grey;}
+
+.HolidayFavorite{display: flex;
+                justify-content: left;
+                position: relative;
+                margin-left: 60px;
+                font-size: 26px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: -50px;}
+
+.imagecenter{display:flex;
+            justify-content: center;
+            position: relative;
+            left: 10px;}
+
+.jordanfleece h2{display: flex;
+                 justify-content: center;
+                 font-size: 50px;
+                 letter-spacing: -2px;
+                 word-spacing: 4px;
+                 font-family: 'Times New Roman', Times, serif;
+                 font-weight: 600;}
+
+.jordanfleece p{display: flex;
+               justify-content: center;
+               position: relative;
+               margin-top: -27px;
+               font-family: 'Times New Roman', Times, serif;
+               font-size: 17px;
+               word-spacing: -1px;
+               font-weight: 200;}
+
+.jordanfleece button{padding: 0px;
+                 margin: 0px;
+                 height: 35px;
+                 width: 80px;
+                 position: relative;
+                 margin-left: 628px;
+                 margin-top: 16px;
+                 border-radius: 18px;
+                 border: solid 1px grey;
+                 background-color: black;
+                 color: white;
+                 font-size: 17px;
+                 transition:  0.1s ease-in-out;}
+                 
+.jordanfleece button:hover{transition: 0.1s ease-in-out;
+                           background-color: grey;}
+
+
+.nikeimage{display: flex;
+           justify-content: center;
+           position: relative;
+           margin-top: 70px;}
+
+.nikebutton button{
+                 position: relative;
+                 margin-left: 600px;
+                 margin-top: -160px;
+                 width: 190px;
+                 font-size: 17px;
+                 height: 39px;
+                 border-radius: 18px;
+                 top: -72px;
+                 left: -28px;
+                 border:  solid 1px grey;
+                 transition:  0.1s ease-in-out;}
+
+.nikebutton button:hover{transition: 0.1s ease-in-out;
+                         background-color: grey;}
+
+.Topgifts{display: flex;
+         justify-content: left;
+         position: relative;
+         margin-left: 42px;
+         font-size: 25px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-top: 20px;}
+
+.bodermainnikeimage{display: flex;
+                   margin-left: 40px;
+                   margin-top: -2px;}
+
+.WrapUpYourList{display: flex;
+               justify-content: center;
+               font-size: 29px;
+               font-family: 'Times New Roman', Times, serif;
+               letter-spacing: -2px;
+               word-spacing: 3px;}
+
+.paragraph p{display: flex;
+             justify-content: center;
+             position: relative;
+             margin-top: -27px;
+             font-size: 17px;
+             font-family: 'Times New Roman', Times, serif;}
+
+.buttonpara{display: flex;
+            justify-content: center;
+            position: relative;
+            height: 38px;
+            margin-top: 32px;}
+
+.buttonpara button{position: relative;
+                   margin-left: 7px;
+                   font-size: 17px;
+                   width: 150px;
+                   border-radius: 18px;
+                   border:  1px solid grey;
+                   background-color: black;
+                   color: white;
+                   transition: 0.1s ease-in-out;}
+
+.buttonpara button:hover{transition: 0.1s ease-in-out;
+                         background-color: gray;}
+
+.Tredingnow p{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 42px;
+              font-size: 24px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 70px;}
+              
+.imagetreding{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 41px;}
+
+.tredingimage2{display: flex;
+               justify-content: center;
+               position: relative;
+               margin-top: -651px;
+               margin-left: 635px;}
+
+.tredingheading{display: flex;
+                justify-content: left;
+                position: relative;
+                margin-top: -207px;
+                margin-left: 82px;
+                font-size: 26px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;}
+
+.heading2treding{display: flex;
+                justify-content: left;
+                position: relative;
+                margin-left: 82px;
+                margin-top: -50px;
+                font-size: 25px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;}
+
+.btntreding{display: flex;
+            justify-content: left;
+            position: relative;
+            margin-left: 90px;
+            height: 38px;}
+
+            
+.btntreding button{
+                   position: relative;
+                   font-size: 18px;
+                   width: 90px;
+                   border-radius: 18px;
+                   border:  1px solid grey;}
+
+.btntreding button:hover{transition:  0.1s ease-in-out;
+                         background-color: grey;}
+
+.imgae1tredindheading{display: flex;
+                      justify-content: center;
+                      position: relative;
+                      margin-left: 280px;
+                      margin-top: -146px;
+                      color: white;
+                      font-size: 26px;
+                      font-family: Arial, Helvetica, sans-serif;}
+
+.image2ndheading{display: flex;
+                      justify-content: center;
+                      position: relative;
+                      margin-left: 301px;
+                      margin-top: -50px;
+                      font-size: 25px;
+                      color: white;
+                      font-family: Arial, Helvetica, sans-serif;}
+
+
+ .btn2treding{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 720px;
+              height: 38px;
+              margin-top: -7px;}                     
+
+.btn2treding button{ position: relative;
+              font-size: 18px;
+              width: 90px;
+              border-radius: 18px;
+              border:  1px solid grey;}
+
+.btn2treding button:hover{transition:  0.1s ease-in-out;
+                          background-color: grey;}
+
+.nikebasketball p{display: flex;
+                  justify-content: lef;
+                  position: relative;
+                  margin-left: 42px;
+                  font-size: 24px;
+                  font-family: Arial, Helvetica, sans-serif;
+                  margin-top: 110px;}
+
+.nikebasketimage{display: flex;
+                 justify-content: center;
+                 position: relative;
+                 margin-left: -1px;}
+
+.nikeheading{display: flex;
+             justify-content: left;
+             position: relative;
+             margin-left: 82px;
+             margin-top: -475px;
+             color: white;
+             font-size: 35px;
+             font-family: Arial, Helvetica, sans-serif;
+             letter-spacing: -6px;}
+
+.nikepara1 p{display: flex;
+             justify-content: left;
+             position: relative;
+             margin-left: 86px;
+             margin-top: -30px;
+             font-size: 18px;
+             font-family: Arial, Helvetica, sans-serif;
+             color: white;}
+
+.nikebtn{display: flex;
+         justify-content: left;
+         position: relative;
+         margin-left: 80px;
+         margin-top: 35px;
+         height: 39px;}
+
+.nikebtn button{position: relative;
+                   margin-left: 7px;
+                   font-size: 17px;
+                   width: 85px;
+                   border-radius: 18px;
+                   border:  1px solid grey;
+                   background-color: white;
+                   color: black;
+                   transition: 0.1s ease-in-out;}
+
+.nikebtn button:hover{transition:  0.1s ease-in-out;
+                      background-color: grey;}
+
+.popularrightnow p{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 41px;
+              font-size: 24px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 310px;}
+
+.slider{display: flex;
+        justify-content: center;}
+
+.nikerigght1 img{margin-left: 8px;;
+                 position: relative;
+                 left: 30px;}
+               
+.nikeshoesprice1{display: flex;
+                 justify-content: left;
+                 position: relative;
+                 margin-left: 40px;
+                 margin-top: 0px;
+                 color: gray;
+                 font-family: Arial, Helvetica, sans-serif;}
+
+#nikepara1{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: -114px;
+           margin-top: 42px;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;}
+
+#nikepara2{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: -196px;
+           margin-top: 66px;}
+ 
+#nikepara3{display: flex;
+          justify-content: left;
+          position: relative;
+          margin-left: 280px;
+          margin-top: 15px;
+          color: black;}
+
+.nikeshoesprice2{display: flex;
+                 justify-content: left;
+                 position: relative;
+                 margin-left: 461px;
+                 margin-top: -102px;
+                 color: gray;
+                 font-family: Arial, Helvetica, sans-serif;}
+
+#nikeshoespara2{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: -114px;
+           margin-top: 42px;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;}
+
+#nikeshoespara3{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: -196px;
+           margin-top: 66px;}
+
+#nikeshoespara4{display: flex;
+          justify-content: left;
+          position: relative;
+          margin-left: 280px;
+          margin-top: 15px;
+          color: black;}
+
+#nikeeshoespara1{display: flex;
+                 justify-content: left;
+                 position: relative;
+                 margin-left: 890px;
+                 margin-top: -85px;
+                 color: gray;
+                 font-family: Arial, Helvetica, sans-serif;}
+          
+#nikeeshoespara2{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: 890px;
+           margin-top: -9px;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;}
+
+#nikeeshoespara3{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: 890px;
+           margin-top: -10px;
+           color: grey;
+          font-family: Arial, Helvetica, sans-serif;}
+
+#nikeeshoespara4{display: flex;
+          justify-content: left;
+          position: relative;
+          margin-left: 1250px;
+          margin-top: -84px;
+          color: black;
+     font-family: Arial, Helvetica, sans-serif;}
+
+.Findyourfleece p{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 41px;
+              font-size: 24px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 160px;}      
+  
+.findfleeceimages img{position: relative;
+                      margin-left: 8px;
+                      left: 30px;}
+
+.findfleecepara{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 38px;
+              font-size: 20px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 1px;}
+
+.findfleecepara2{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 460px;
+              font-size: 20px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: -63px;}
+
+.findfleecepara3{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 886px;
+              font-size: 20px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: -63px;}
+
+.membershipnike{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 41px;
+              font-size: 24px;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 50px;}
+
+.membershipnikeimages{position: relative;
+                      margin-left: 40px;}
+
+.Becomeamember{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: 90px;
+               margin-top: -296px;
+               color: white;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 26px;
+               letter-spacing: -3px;
+               word-spacing: 3px;}
+               
+#Member{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -256px;
+               margin-top: 80px;
+               color: white;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 53px;
+               letter-spacing: -2px;
+               word-spacing: 3px;}
+
+.Becomeamember p{display: flex;
+                justify-content: left;
+                position: relative;
+                margin-left: -220px;
+                margin-top: 155px;
+                letter-spacing: -0.3px;
+                word-spacing: 0px;
+                font-weight: 100;
+                font-size: 17px;}
+
+.btnbecomemember{display: flex;
+              justify-content: left;
+              position: relative;
+              margin-left: 93px;
+              height: 40px;
+              margin-top: 14px;}
+
+.btnbecomemember button{position: relative;
+              font-size: 17px;
+              width: 100px;
+              border-radius: 18px;
+              border:  1px solid grey;
+              transition:  0.1s ease-in-out;}
+
+.btnbecomemember button:hover{transition:  0.1s ease-in-out;
+                               background-color: grey;}
+
+.Firstacsees img{position: relative;
+            margin-left: 8px;
+            margin-top: 77px;
+            left: 30px;}
+          
+.Firstacsees p{display: flex;
+                 justify-content: left;
+                 position: relative;
+                 margin-left: 90px;
+                 margin-top: -132px;
+                 color: rgb(59, 59, 59);
+                 font-family: Arial, Helvetica, sans-serif;}
+
+#shopmember{display: flex;
+           justify-content: left;
+           font-size: 24px;
+           position: relative;
+           margin-left: 86px;
+           margin-top: -10px;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;}
+
+#style{display: flex;
+     justify-content: left;
+     font-size: 24px;
+     position: relative;
+     margin-left: 86px;
+     margin-top: -24px;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;}
+
+.Shippingaskshouldbe p{display: flex;
+                 justify-content: center;
+                 position: relative;
+                 margin-left: -125px;
+                 margin-top: -106px;
+                 color: rgb(59, 59, 59);
+                 font-family: Arial, Helvetica, sans-serif;}
+
+#Freestandard{display: flex;
+           justify-content: center;
+           font-size: 24px;
+           position: relative;
+           margin-left: -20px;
+           margin-top: -10px;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;}
+
+#alloders{display: flex;
+          justify-content: center;
+          font-size: 24px;
+          position: relative;
+          margin-left: -200px;
+          margin-top: -24px;
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;}
+
+.Nikebyyou p{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: 610px;
+     margin-top: -106px;
+     color: rgb(59, 59, 59);
+     font-family: Arial, Helvetica, sans-serif;}
+
+#Customize{display: flex;
+           justify-content: center;
+           font-size: 24px;
+           position: relative;
+           margin-left: 765px;
+           margin-top: -10px;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;}
+
+#shoe{display: flex;
+     justify-content: center;
+     font-size: 24px;
+     position: relative;
+     margin-left: 579px;
+     margin-top: -24px;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;}
+
+.Featured{display: flex;
+          justify-content: center;
+          position: relative;
+          margin-top: 160px;
+          margin-left: -330px;
+          font-size: px;
+          font-family: Arial, Helvetica, sans-serif;}
+
+#airforce{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -65px;
+          margin-top: 61px;
+          color: grey;}
+
+#Jordan1{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -144px;
+          margin-top: 95px;
+          color: grey;}
+
+#AirMax2090{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -207px;
+          margin-top: 130px;
+          color: grey;}
+
+#AirMax270{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -302px;
+          margin-top: 165px;
+          color: grey;}
+
+#AirMax90{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -387px;
+          margin-top: 200px;
+          color: grey;}
+
+#React{display: flex;
+     justify-content: center;
+     position: relative;
+     left: -463px;
+     margin-top: 232px;
+     color: grey;}
+
+.Shoes{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-top: -266px;
+     margin-left: 320px;
+     font-size: px;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#allshoes{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -46px;
+          margin-top: 61px;
+          color: grey;}
+
+#jordanshoes{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -114px;
+          margin-top: 95px;
+          color: grey;}
+
+#Runnigshoes{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -212px;
+          margin-top: 130px;
+          color: grey;}
+
+#Busketshoes{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -374px;
+          margin-top: 165px;
+          color: grey;}
+
+#Tennisshoes{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -497px;
+          margin-top: 200px;
+          color: grey;}
+
+#Customshoes{display: flex;
+     justify-content: center;
+     position: relative;
+     left: -593px;
+     margin-top: 232px;
+     color: grey;}
+  
+.Clothing{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-top: -266px;
+     margin-left: 720px;
+     font-size: px;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#allcloting{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -59px;
+          margin-top: 61px;
+          color: grey;}
+
+#TopendTshirts{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -140px;
+          margin-top: 94px;
+          color: grey;}
+          
+#Shorts{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -237px;
+          margin-top: 130px;
+          color: grey;}
+
+#Hoddies{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -284px;
+          margin-top: 165px;
+          color: grey;}
+
+#Sportsbeas{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -425px;
+          margin-top: 200px;
+          color: grey;}
+
+#PantsTight{display: flex;
+     justify-content: center;
+     position: relative;
+     left: -509px;
+     margin-top: 232px;
+     color: grey;}
+
+.Kidz{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-top: -266px;
+     margin-left: 920px;
+     font-size: px;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#KidzSlider{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -33px;
+          margin-top: 60px;
+          color: grey;}
+
+#Kidzpufferjacket{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -110px;
+          margin-top: 93px;
+          color: grey;}
+
+#KidzTracsuits{display: flex;
+          justify-content: center;
+          position: relative;
+          left: -237px;
+          margin-top: 128px;
+          color: grey;}
+
+.GIFTCARDS{display: flex;
+           justify-content: left;
+           position: relative;
+           margin-left: -8px;
+           margin-top: 155px;
+           font-size: 18px;
+           font-family: Arial, Helvetica, sans-serif;
+           word-spacing: 0px;
+           letter-spacing: -1px;
+          background-color: black;
+          color: white;
+          height: 420px;
+          width: 1365px;}
+
+.GIFTCARDS h6{position: relative;
+             left: 45px;
+             top: 40px;}
+
+#findastore{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -64px;
+               margin-top: 69px;
+               color: white;
+               font-size: 12px;}
+
+#nikejournal{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -71px;
+               margin-top: 104px;
+               color: white;
+               font-size: 12px;}
+
+#becomeamember{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -78px;
+               margin-top: 137px;
+               color: white;
+               font-size: 12px;}
+
+#studentdiscount{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -106px;
+               margin-top: 171px;
+               color: white;
+               font-size: 12px;}
+
+#feedback{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -105px;
+               margin-top: 204px;
+               color: white;
+               font-size: 12px;}
+
+#promocodes{display: flex;
+               justify-content: left;
+               position: relative;
+               margin-left: -59px;
+               margin-top: 236px;
+               color: white;
+               font-size: 12px;}
+
+.gethelp h6{display: flex;
+            justify-content: left;
+            position: relative;
+            margin-left: 280px;
+            font-size: 13px;
+            margin-top: -355px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;}
+
+#orderstatus{display: flex;
+             justify-content: center;
+             position: relative;
+             margin-left: -700px;
+             margin-top: -15px;
+             font-size: 13px;
+             color: grey;
+             font-family: Arial, Helvetica, sans-serif;
+             transition: 1s ease-in-out;}
+
+
+          
+
+#shippingdelivery{display: flex;
+             justify-content: center;
+             position: relative;
+             margin-left: -648px;
+             margin-top: 15px;
+             font-size: 13px;
+             color: grey;
+             font-family: Arial, Helvetica, sans-serif;}
+
+#returns{display: flex;
+             justify-content: center;
+             position: relative;
+             margin-left: -727px;
+             margin-top: 16px;
+             font-size: 13px;
+             color: grey;
+             font-family: Arial, Helvetica, sans-serif;}
+
+#paymentoption{display: flex;
+             justify-content: center;
+             position: relative;
+             margin-left: -685px;
+             margin-top: 16px;
+             font-size: 13px;
+             color: grey;
+             font-family: Arial, Helvetica, sans-serif;}
+
+#contactus{display: flex;
+             justify-content: center;
+             position: relative;
+             margin-left: -710px;
+             margin-top: 16px;
+             font-size: 13px;
+             color: grey;
+             font-family: Arial, Helvetica, sans-serif;}
+
+.Aboutnike{display: flex;
+            justify-content: center;
+            position: relative;
+            margin-left: -225px;
+            font-size: 18px;
+            margin-top: -209px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;}
+
+#News{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -75px;
+     margin-top: 60px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#Careers{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -34px;
+     margin-top: 89px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#Invester{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -45px;
+     margin-top: 118px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#Sustainability{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -45px;
+     margin-top: 149px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+.JoinUs{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: 495px;
+     left: -20px;
+     font-size: 18px;
+     margin-top: -177px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;}
+
+#NikeApp{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -49px;
+     margin-top: 60px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#Nikerunclub{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -52px;
+     margin-top: 88px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#Niketrainingclub{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -83px;
+     margin-top: 116px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+#SNKRS{display: flex;
+     justify-content: center;
+     position: relative;
+     margin-left: -106px;
+     margin-top: 143px;
+     font-size: 13px;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;}
+
+.JoinUs img{position: relative;
+            left: 285px;
+            top: 17px;
+            margin-left: 20px;
+           transition:  1s ease-in-out;}
+
+.JoinUs img:hover{transition: 1s ease-in-out;
+                  position: relative;
+                  margin-top: 13px;}
+
+#loactionicon{display: flex;
+              justify-content: left;
+              position: relative;
+              left: -983px;
+              top: 350px;}
+
+#ireland{display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 338px;
+        left: -402px;
+        font-size: 13px;}
+
+#allright{font-size: 12px;
+          position: absolute;
+          top: 340px;
+          left: -334px;
+          color: grey;}
+
+#guides{font-size: 12px;
+          position: absolute;
+          top: 300px;
+          left: 310px;
+          color: grey;
+          transition:  0.2s ease-in-out;}
+
+#guides:hover{transition: 0.2s ease-in-out;
+              color: white;}         
+
+#Termsofuse{font-size: 12px;
+            position: absolute;
+            top: 300px;
+            left: 380px;
+            color: grey;
+            transition:  0.2s ease-in-out;}
+
+#Termsofuse:hover{transition: 0.2s ease-in-out;
+                  color: white;}
+
+#TermsofSale{font-size: 12px;
+     position: absolute;
+     top: 300px;
+     left: 480px;
+     color: grey;
+     transition:  0.2s ease-in-out;}
+
+#TermsofSale:hover{transition: 0.2s ease-in-out;
+          color: white;}
+
+#companydetails{font-size: 12px;
+     position: absolute;
+     top: 300px;
+     left: 580px;
+     color: grey;
+     transition:  0.2s ease-in-out;}
+
+#companydetails:hover{transition: 0.2s ease-in-out;
+                   color: white;}
+
+#privaspolicy{font-size: 12px;
+     position: absolute;
+     top: 300px;
+     left: 695px;
+     color: grey;
+     transition:  0.2s ease-in-out;}
+
+#privaspolicy:hover{transition: 0.2s ease-in-out;
+                   color: white;}
+     
+
+#Cookiessetting{font-size: 12px;
+     position: absolute;
+     top: 342px;
+     left: 727px;
+     color: grey;
+     transition:  0.2s ease-in-out;}
+
+#Cookiessetting:hover{transition: 0.2s ease-in-out;
+                      color: white;}
+
+
+
+
+
+
+
+
+
+
+

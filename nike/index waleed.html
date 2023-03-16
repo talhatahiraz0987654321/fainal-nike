@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Nike - Sign in</title>
+    <link rel="shortcut icon" href="../nike/img/Thumb-20131114034629496.jpg" type="image/x-icon">
+</head>
+<body>
+    <style>
+body{
+background-image: url(../nike/img/white-abstract-background-design_23-2148825582.webp);
+
+
+
+
+
+
+  }      
+
+.main{
+    margin-left: 400px;
+    
+}
+.waleed10{
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.waleed10 a{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    
+}
+.waleed10 p{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+    
+}
+
+.button{
+    margin-left: 400px;
+
+}
+.main img{
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin-top: 3px;
+
+}
+.main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 1px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 29px;
+}
+
+
+.input input{
+    margin-left: 404px;
+width: 460px;
+height: 52px;
+border: rgb(212, 63, 33) 1px solid;
+border-radius:  7px 7px 7px 7px;
+margin-top: -5px;
+background-color: transparent;
+font-size: 0.8em;
+outline: none;
+padding-inline-start: 15px;
+
+
+
+
+}
+
+
+
+.waleed50{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: px;
+    font-weight: 100;
+    color: #111111;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.waleed50 h3{
+    margin-top: -6px;
+    font-size: 20px;
+    margin-left: 3px;
+    font-weight: 100;
+}
+
+.waleed50 a{
+    margin-left: 10px;
+  margin-top: -5px;
+  color:gray;
+}
+.input p{
+    margin-left: 415px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(212, 63, 33);
+margin-bottom: 30px;
+    font-size: 0.6em;
+    margin-top: 4px;
+    
+}
+.button{
+    margin-top: 40px;
+    margin-left: 403px;
+}
+
+.button button{
+    width: 460px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border-radius: 28px 28px 28px 28px ;
+    border: none;
+    font-size: 1em;
+    outline: none;
+}
+
+.button button:hover{
+background-color: grey;
+}
+::placeholder{
+
+    color: rgb(212, 63, 33);
+ 
+}
+
+    </style>
+
+
+
+
+
+
+ <div class="main">
+
+<img src="../nike/img/swoosh-logo-black-removebg-preview.png" alt="" srcset="">
+<h2>Enter your email to join us or sign in.</h2>
+<br>
+
+</div>
+
+
+
+  <div class="waleed50">
+    <h3>Pakistan  </h3>
+    <a href="#">Change</a>
+  </div>
+
+
+<div class="input">
+    <br>
+    <input type="Email" id="Email" placeholder="Email" >
+    <p>Required</p>
+</div>
+
+
+
+<div class="waleed10">
+    <p>By continuing, I agree to Nike's</p>
+    <a href="#"> Privacy </a>
+   
+</div>
+<div class="waleed10">
+    <a href="#"> Policy </a>
+    <p>and</p>
+    <a href="#">Terms of Use.</a>
+</div>
+
+
+
+<div class="button">
+<a href="logging.html">
+<button onclick="myfunc()" >Continue</button></a>
+</div>
+<script>
+    function myfunc() {
+        var mail = document.getElementById("Email").value;
+        if (mail.length>15) {
+          location.replace("findastore.html");
+        }else {
+            alert("Invalid email");
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.proper{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    margin:10px;
+}
+.card a{
+    text-align: center;
+}
+h6{
+    text-decoration: line-through;
+}
